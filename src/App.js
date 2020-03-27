@@ -10,9 +10,24 @@ export default class App extends Component {
 
   render() {
     return (
-      
+      <form>
+        <label>
+          Name
+          <input type="text" />
+        </label>
+
+        <label>
+          Breed
+          <input type="text" />
+        </label>
+
+        <label>
+          Birthday
+          <input type="text" />
+        </label>
+      </form>
     )
   }
 }
 
-export default App;
+
