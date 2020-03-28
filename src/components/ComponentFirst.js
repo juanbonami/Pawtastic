@@ -5,6 +5,7 @@ export default class ComponentFirst extends Component {
     render() {
         return (
             <div>
+                <h1>Yay, we love dogs! Give us the basics about your pup.</h1>
                 <label>
                     Name
                     <input type="text" placeholder="Pet's name" />
