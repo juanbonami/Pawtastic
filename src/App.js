@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+import ComponentFirst from './components/ComponentFirst';
 import './App.css';
+import ComponentSecond from './components/ComponentSecond';
+import ComponentThird from './components/ComponentThird';
 
 export default class App extends Component {
   constructor(props) {
@@ -11,20 +14,8 @@ export default class App extends Component {
   render() {
     return (
       <form>
-        <label>
-          Name
-          <input type="text" />
-        </label>
-
-        <label>
-          Breed
-          <input type="text" />
-        </label>
-
-        <label>
-          Birthday
-          <input type="text" />
-        </label>
+        <ComponentFirst />
+        
       </form>
     )
   }
