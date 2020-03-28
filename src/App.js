@@ -15,6 +15,7 @@ export default class App extends Component {
     return (
       <form>
         <ComponentFirst />
+        <ComponentSecond />
         
       </form>
     )
