@@ -1,8 +1,6 @@
 .App {
     border: solid;
-
-    /* height: 0px;
-    width: 0px; */
+    padding: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -20,4 +18,11 @@
 
 .rightside {
     border: solid;
+}
+.input{
+    margin: 20px;
+}
+
+.checkbox {
+    margin: 120px 30px 30px 30px;
 }
