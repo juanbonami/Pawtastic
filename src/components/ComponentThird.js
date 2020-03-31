@@ -5,8 +5,8 @@ export default class ComponentThird extends Component {
         return (
             <div>
                 <form>
-                    <button>Back</button>
-                    <button>Next</button>
+                    <button className="button1">Back</button>
+                    <button className="button2">Next</button>
                 </form>
             </div>
         )
